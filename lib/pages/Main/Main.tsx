@@ -1,9 +1,9 @@
-import BrandName from "@/lib/components/BrandName/BrandName";
-import Field from "@/lib/components//Field/Field";
-import SectionHeading from "@/lib/components/SectionHeading/SectionHeading";
-import WorkExperienceCard from "@/lib/molecules/WorkExperienceCard/WorkExperienceCard";
-import ContactList from "@/lib/pages/Main/ContactList";
-import STORE from "@/store/index";
+import BrandName from "../../components/BrandName/BrandName";
+import ContactList from "./ContactList";
+import Field from "../../components/Field/Field";
+import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import WorkExperienceCard from "../../molecules/WorkExperienceCard/WorkExperienceCard";
+import STORE from "../../../store/index";
 
 function Intro() {
   return (
@@ -17,7 +17,7 @@ function Intro() {
 
 function Main() {
   return (
-    <main className="text-color-primary mx-auto px-4 font-sans sm:px-12 md:px-48 lg:px-72 xl:max-w-screen-sm xl:px-0">
+    <main className="text-color-primary mx-auto px-24">
       <BrandName title="Mark Toh" />
       <ContactList />
       <section>

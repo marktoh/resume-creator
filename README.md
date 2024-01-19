@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Resume Creator
+
+A tool for creating a resume.
+
+## Table of Contents
+
+- 🚀 [Getting Started](#getting-started)
+- 👨‍💻 [Development](#development)
 
 ## Getting Started
 
-First, run the development server:
+Checkout [Storybook](#storybook) to view the design system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Checkout [Next.js](#nextjs) to run the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Storybook
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+A tool for managing the design system. It can be used to create, verify, and showcase all visual elements within the application.
 
-## Learn More
+#### `npm run storybook`
 
-To learn more about Next.js, take a look at the following resources:
+> Starts [Storybook](https://storybook.js.org/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Component |                                Preview                                |
+| --------- | :-------------------------------------------------------------------: |
+| Molecule  | <img src="./public/storybook-molecule.png" width="400" height="225"/> |
+| Page      |   <img src="./public/storybook-page.png" width="400" height="225"/>   |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Next.js
 
-## Deploy on Vercel
+The web development server. It runs the app that will be used in production.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> Starts the [Next.js](https://nextjs.org/) server
+
+Click `Print` on your browser to save a copy of the resume.

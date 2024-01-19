@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Education",
+    "value": "B.S. in Computer Sciences 2018 - University of Wisconsin-Madison"
+  },
+  {
+    "label": "Technologies",
+    "value": "JavaScript, TypeScript, TailwindCSS, Next.js, React, Redux, Sagas, PostgreSQL, Node.js, Python, Go, GraphQL"
+  },
+  {
+    "label": "Tools",
+    "value": "Storybook, Jest, Cypress, Express, GitHub, VSCode, Vercel, Heroku, Stripe, Supabase"
+  }
+]
