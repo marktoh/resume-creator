@@ -3,12 +3,14 @@ interface WorkExperienceCardProps {
   title: string;
   startDate?: string | null;
   endDate?: string | null;
+  description: string | null;
   statements: Array<String>;
 }
 function WorkExperienceCard({
   title,
   startDate,
   endDate,
+  description,
   statements,
 }: WorkExperienceCardProps) {
   return (
@@ -20,6 +22,7 @@ function WorkExperienceCard({
         </span>
       </div>
       <div className="text-color-secondary">
+        <p className="text-color-tertiary text-xs">{description}</p>
         <ul>
           {statements?.map((statement, idx) => (
             <li key={idx} className="flex items-start text-sm">

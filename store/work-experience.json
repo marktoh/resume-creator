@@ -3,8 +3,8 @@
     "title": "PropertyGuru",
     "startDate": "SEP 2023",
     "endDate": "PRESENT",
+    "description": "Worked on growing, improving, and maintaining Asia's largest online property portal.",
     "statements": [
-      "Worked on growing, improving, and maintaining Asia's largest online property portal.",
       "Designed a masking algorithm for censoring URLs using regular expressions (RegEx).",
       "Implemented a modern Figma page design using styled-components and Next.js.",
       "Participated in an agile methodology and weighed opinions in sprint plannings.",
@@ -18,8 +18,8 @@
     "title": "Mumbo Solutions",
     "startDate": "OCT 2022",
     "endDate": "SEP 2023",
+    "description": "Worked on an e-commerce app for a wholesaler to manage and sell products online.",
     "statements": [
-      "Worked on an e-commerce app for a wholesaler to manage and sell products online.",
       "Created a shopping cart system using React, e-GHL Payments Gateway, Node.js, and Supabase (PostgreSQL).",
       "Implemented authentication flow with React-Router and Supabase Auth API.",
       "Allowed admins to upload photos to products using Supabase Storage API (Amazon s3 Storage).",
@@ -32,8 +32,8 @@
     "title": "Expedia Group",
     "startDate": "NOV 2020",
     "endDate": "DEC 2021",
+    "description": "Worked on growing, improving, and maintaining a flagship flight search engine for millions of customers daily.",
     "statements": [
-      "Worked on growing, improving, and maintaining a flagship flight search engine for millions of customers daily.",
       "Implemented Flight Checkout Figma designs using React and CSS.",
       "Improved developer efficiency by integrating Github Actions into the CI/CD pipeline."
     ],
@@ -44,8 +44,8 @@
     "title": "DataChat",
     "startDate": "MAY 2018",
     "endDate": "NOV 2020",
+    "description": "Worked on an AI Data Analytics chatbot for enterprises to oversee and forecast their data.",
     "statements": [
-      "Worked on an AI Data Analytics chatbot for enterprises to oversee and forecast their data.",
       "Created a business intelligence dashboard using React, Redux, and Plotly.",
       "Created a chart library in React and Plotly for displaying business data.",
       "Implemented create, read, update, and delete (CRUD) endpoints in Go for managing users.",

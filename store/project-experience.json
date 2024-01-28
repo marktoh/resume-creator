@@ -3,8 +3,8 @@
     "title": "Resume Creator",
     "startDate": null,
     "endDate": null,
+    "description": "Resume Creator is a tool for creating resumes using a custom design system.",
     "statements": [
-      "Resume Creator is a tool for creating resumes using a custom design system.",
       "Created a responsive design system using TailwindCSS and Storybook."
     ]
   },
@@ -12,8 +12,8 @@
     "title": "Dota Drafter",
     "startDate": null,
     "endDate": null,
+    "description": "Dota Drafter is a tool for assessing strengths and weaknesses between characters.",
     "statements": [
-      "Dota Drafter is a tool for assessing strengths and weaknesses between characters.",
       "Designed database for admins to create, read, update, and delete hero pairings using Supabase."
     ],
     "status": "active",
@@ -23,8 +23,8 @@
     "title": "marktoh.com",
     "startDate": null,
     "endDate": null,
+    "description": "A photography e-commerce website showcasing several photographs from a photographer.",
     "statements": [
-      "A photography e-commerce website showcasing several photographs from a photographer.",
       "Integrated checkout using Stripe's Checkout API and created auxiliary endpoints in Node.js to process checkout session."
     ],
     "status": "active",
