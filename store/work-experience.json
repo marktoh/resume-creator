@@ -5,11 +5,11 @@
     "endDate": "PRESENT",
     "description": "Worked on growing, improving, and maintaining Asia's largest online property portal.",
     "statements": [
-      "Designed a masking algorithm for censoring URLs using regular expressions (RegEx).",
-      "Implemented a modern Figma page design using styled-components and Next.js.",
-      "Participated in an agile methodology and weighed opinions in sprint plannings.",
-      "Verified quality of software by writing unit tests in Jest and Cypress.",
-      "Reduced cost and improved DevOps efficiency by creating a pre-push git hook using Husky."
+      "Translated responsive Figma designs into React using styled-components and Next.js.",
+      "Masked website URLs by designing an algorithm using regular expressions.",
+      "Performed sprint plannings and participated in an agile methodology.",
+      "Wrote unit tests in Jest for utility functions and React components.",
+      "Improved development workflow by creating a pre-push git hook using Husky."
     ],
     "status": "active",
     "dateModified": "20/01/2024"
@@ -20,10 +20,10 @@
     "endDate": "SEP 2023",
     "description": "Worked on an e-commerce app for a wholesaler to manage and sell products online.",
     "statements": [
-      "Created a shopping cart system using React, e-GHL Payments Gateway, Node.js, and Supabase (PostgreSQL).",
-      "Implemented authentication flow with React-Router and Supabase Auth API.",
-      "Allowed admins to upload photos to products using Supabase Storage API (Amazon s3 Storage).",
-      "Implemented mail notification system to alert users using Courier Notification API."
+      "Developed a full-stack shopping cart system using React, e-GHL Payments Gateway, Node.js, and Supabase (PostgreSQL).",
+      "Authenticated users using React-Router and Supabase Auth API.",
+      "Upload photos to products using Supabase Storage API (Amazon s3 Storage).",
+      "Notified users via Email using Courier Notification API."
     ],
     "status": "active",
     "dateModified": "20/01/2024"
@@ -32,10 +32,10 @@
     "title": "Expedia Group",
     "startDate": "NOV 2020",
     "endDate": "DEC 2021",
-    "description": "Worked on growing, improving, and maintaining a flagship flight search engine for millions of customers daily.",
+    "description": "Implemented designs for Expedia's flagship product, a travel agency & metasearch engine, that serves millions of flight passengers daily.",
     "statements": [
-      "Implemented Flight Checkout Figma designs using React and CSS.",
-      "Improved developer efficiency by integrating Github Actions into the CI/CD pipeline."
+      "Translated UI/UX designs from Figma into React/JavaScript code.",
+      "Improved development workflow by integrating Github Actions into the CI/CD pipeline."
     ],
     "status": "active",
     "dateModified": "20/01/2024"
@@ -46,13 +46,14 @@
     "endDate": "NOV 2020",
     "description": "Worked on an AI Data Analytics chatbot for enterprises to oversee and forecast their data.",
     "statements": [
-      "Created a business intelligence dashboard using React, Redux, and Plotly.",
-      "Created a chart library in React and Plotly for displaying business data.",
-      "Implemented create, read, update, and delete (CRUD) endpoints in Go for managing users.",
-      "Wrote end-to-end test suites in Cypress to secure the stability of the front-end application.",
+      "Developed a business intelligence dashboard using React, Redux and Plotly.",
+      "Created a data pipeline that shows the latest company data in React and Python.",
+      "Designed end-to-end test suites in Cypress to improve software uptime.",
       "Led a team of 5 engineers to introduce a step-by-step tutorial to onboard new users.",
-      "Designed roadmap, broke down tasks, and distributed workload to ensure project delivery.",
-      "Mentored new hires through onboarding, technical guidance, and providing code reviews."
+      "Reviewed pull requests and managed individual deadlines to ensure project delivery.",
+      "Created a chart library with pie charts, bar charts, and OpenStreet maps in React, Redux, and Plotly.",
+      "Implemented create, read, update, and delete (CRUD) endpoints in Go for managing users.",
+      "Developed a UI wizard for managing users in React, Redux, and Material Table."
     ],
     "status": "active",
     "dateModified": "20/01/2024"
