@@ -8,7 +8,7 @@ import STORE from "../../../store/index";
 function Intro() {
   return (
     <div>
-      {STORE.INTRO_DATA?.map((e) => (
+      {STORE.SKILLS_DATA?.map((e) => (
         <Field key={e.label} label={e.label} value={e.value} />
       ))}
     </div>
@@ -19,7 +19,7 @@ function Main() {
   return (
     <main className="text-color-primary mx-auto px-24">
       <BrandName title="Mark Toh" />
-      <ContactList />
+      <ContactList items={STORE.CONTACT_LIST_DATA} />
       <section>
         <SectionHeading title="Front-end Engineer, Full Stack Engineer, Tech Lead" />
         <Intro />

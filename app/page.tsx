@@ -1,19 +1,9 @@
 import BrandName from "@/lib/components/BrandName/BrandName";
-import Field from "@/lib/components//Field/Field";
 import SectionHeading from "@/lib/components/SectionHeading/SectionHeading";
 import WorkExperienceCard from "@/lib/molecules/WorkExperienceCard/WorkExperienceCard";
 import ContactList from "@/lib/pages/Main/ContactList";
+import Skills from "@/lib/components/Skills/Skills";
 import STORE from "@/store/index";
-
-function Intro() {
-  return (
-    <div>
-      {STORE.INTRO_DATA?.map((e) => (
-        <Field key={e.label} label={e.label} value={e.value} />
-      ))}
-    </div>
-  );
-}
 
 function Main() {
   return (
@@ -22,7 +12,7 @@ function Main() {
       <ContactList items={STORE.CONTACT_LIST_DATA} />
       <section>
         <SectionHeading title="Front-end Engineer, Full Stack Engineer, Tech Lead" />
-        <Intro />
+        <Skills skills={STORE.SKILLS_DATA} />
       </section>
       <section>
         <SectionHeading title="Work Experience" />
