@@ -19,7 +19,7 @@ function Main() {
   return (
     <main className="text-color-primary mx-auto px-4 font-sans sm:px-12 md:px-48 lg:px-72 xl:max-w-screen-sm xl:px-0">
       <BrandName title="Mark Toh" />
-      <ContactList />
+      <ContactList items={STORE.CONTACT_LIST_DATA} />
       <section>
         <SectionHeading title="Front-end Engineer, Full Stack Engineer, Tech Lead" />
         <Intro />
