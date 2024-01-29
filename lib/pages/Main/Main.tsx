@@ -1,6 +1,8 @@
 import BrandName from "../../components/BrandName/BrandName";
-import ContactList from "./ContactList";
 import Skills from "../../components/Skills/Skills";
+import ContactList from "../../molecules/ContactList/ContactList";
+import ContactListItem from "../../components/ContactListItem/ContactListItem";
+import ContactLink from "../../molecules/ContactLink/ContactLink";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
 import WorkExperienceCard from "../../molecules/WorkExperienceCard/WorkExperienceCard";
 import store from "../../../store/index";
@@ -17,7 +19,13 @@ function ContactSection() {
   const { contact } = store;
   return (
     <section>
-      <ContactList items={contact?.data} />
+      <ContactList center>
+        {contact?.data?.map((e) => (
+          <ContactListItem key={e.title}>
+            <ContactLink key={e.title} title={e.title} href={e.href} />
+          </ContactListItem>
+        ))}
+      </ContactList>
     </section>
   );
 }
