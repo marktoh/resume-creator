@@ -1,4 +1,4 @@
-import Field from "@/lib/components//Field/Field";
+import Field from "../Field/Field";
 interface SkillProps {
   label: string;
   value: string;

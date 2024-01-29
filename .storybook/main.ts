@@ -4,7 +4,6 @@ const config: StorybookConfig = {
   stories: [
     "../lib/components/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../lib/molecules/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-    "../lib/organisms/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../lib/pages/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
   addons: [
