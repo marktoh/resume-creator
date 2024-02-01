@@ -6,7 +6,7 @@ const config: Config = {
     "./lib/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./lib/molecules/**/*.{js,ts,jsx,tsx,mdx}",
     "./lib/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./constants/**/*.{js,ts,jsx,tsx,mdx}",
+    "./assets/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {

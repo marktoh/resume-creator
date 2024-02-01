@@ -1,5 +1,5 @@
 import Link from "../../components/Link/Link";
-import ArrowUpRight from "../../../constants/icons/ArrowUpRight";
+import ArrowUpRight from "../../../assets/icons/ArrowUpRight";
 
 interface ContactLinkProps {
   title: string;

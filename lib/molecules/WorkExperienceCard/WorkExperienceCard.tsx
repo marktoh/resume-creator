@@ -1,4 +1,4 @@
-import ArrowDownRight from "../../../constants/icons/ArrowDownRight";
+import ArrowDownRight from "../../../assets/icons/ArrowDownRight";
 interface WorkExperienceCardProps {
   title: string;
   startDate?: string | null;
