@@ -28,7 +28,7 @@ const DATA = [
 
 const renderItems = () =>
   DATA?.map((e) => (
-    <ContactListItem>
+    <ContactListItem key={e.title}>
       <ContactLink title={e.title} href={e.href} />
     </ContactListItem>
   ));

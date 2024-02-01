@@ -22,7 +22,7 @@ function ContactSection() {
       <ContactList center>
         {contact?.data?.map((e) => (
           <ContactListItem key={e.title}>
-            <ContactLink key={e.title} title={e.title} href={e.href} />
+            <ContactLink title={e.title} href={e.href} />
           </ContactListItem>
         ))}
       </ContactList>
