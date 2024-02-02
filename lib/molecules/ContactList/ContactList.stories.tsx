@@ -3,6 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import ContactList from "./ContactList";
 import ContactListItem from "../../components/ContactListItem/ContactListItem";
 import ContactLink from "../ContactLink/ContactLink";
+import store from "../../../store";
 
 const meta = {
   title: "Molecules/ContactList",
@@ -13,21 +14,9 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-const DATA = [
-  {
-    title: "portfolio",
-  },
-  {
-    title: "marktohtk@gmail.com",
-  },
-  {
-    title: "linkedin",
-    href: "https://linkedin.com",
-  },
-];
-
+const sampleData = store?.contact?.data;
 const renderItems = () =>
-  DATA?.map((e) => (
+  sampleData?.map((e) => (
     <ContactListItem key={e.title}>
       <ContactLink title={e.title} href={e.href} />
     </ContactListItem>
