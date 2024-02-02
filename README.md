@@ -1,6 +1,6 @@
 # Resume Creator
 
-A tool for creating a resume.
+A tool for creating a resume
 
 ## Table of Contents
 
@@ -12,10 +12,10 @@ A tool for creating a resume.
 
 ### Scripts
 
-| Script        | Description                                              |
-| ------------- | -------------------------------------------------------- |
-| bun storybook | Starts the [Storybook](https://storybook.js.org/) client |
-| bun dev       | Starts the [Next.js](https://nextjs.org/) server         |
+| Script          | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| `bun storybook` | Starts the [Storybook](https://storybook.js.org/) client |
+| `bun dev`       | Starts the [Next.js](https://nextjs.org/) server         |
 
 ## Usage
 
@@ -27,7 +27,7 @@ A tool for creating a resume.
 ### Next.js
 
 1. Run `bun dev`
-2. Click `Print` on your browser to save a copy of the resume.
+2. Click `Print` on your browser to save a copy of the resume
 
 ## Screenshots
 
