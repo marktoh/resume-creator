@@ -3,6 +3,7 @@ interface WorkExperienceCardProps {
   title: string;
   startDate?: string | null;
   endDate?: string | null;
+  role: string;
   description: string | null;
   statements: Array<String>;
 }
@@ -10,6 +11,7 @@ function WorkExperienceCard({
   title,
   startDate,
   endDate,
+  role,
   description,
   statements,
 }: WorkExperienceCardProps) {
@@ -20,6 +22,11 @@ function WorkExperienceCard({
         <span className="text-color-tertiary mt-1 text-xs font-normal tracking-wider">
           {startDate && endDate && `${startDate} - ${endDate}`}
         </span>
+        {role && (
+          <span className="text-color-tertiary mt-1 rounded px-1 py-1 text-[10px] uppercase leading-4 tracking-wider">
+            {role}
+          </span>
+        )}
       </div>
       <div className="text-color-secondary">
         <p className="text-color-tertiary text-xs">{description}</p>

@@ -3,6 +3,7 @@
     "title": "PropertyGuru",
     "startDate": "SEP 2023",
     "endDate": "PRESENT",
+    "role": "Software Engineer",
     "description": "Worked on growing, improving, and maintaining Asia's largest online property portal.",
     "statements": [
       "Translated responsive Figma designs into React using styled-components and Next.js.",
@@ -18,6 +19,7 @@
     "title": "Mumbo Solutions",
     "startDate": "OCT 2022",
     "endDate": "SEP 2023",
+    "role": "Lead Software Engineer",
     "description": "Worked on an e-commerce app for a wholesaler to manage and sell products online.",
     "statements": [
       "Developed a full-stack shopping cart system using React, e-GHL Payments Gateway, Node.js, and Supabase (PostgreSQL).",
@@ -32,6 +34,7 @@
     "title": "Expedia Group",
     "startDate": "NOV 2020",
     "endDate": "DEC 2021",
+    "role": "Software Engineer",
     "description": "Implemented designs for Expedia's flagship product, a travel agency & metasearch engine, that serves millions of flight passengers daily.",
     "statements": [
       "Translated UI/UX designs from Figma into React/JavaScript code.",
@@ -44,6 +47,7 @@
     "title": "DataChat",
     "startDate": "MAY 2018",
     "endDate": "NOV 2020",
+    "role": "Lead Software Engineer",
     "description": "Worked on an AI Data Analytics chatbot for enterprises to oversee and forecast their data.",
     "statements": [
       "Developed a business intelligence dashboard using React, Redux and Plotly.",
@@ -51,7 +55,7 @@
       "Designed end-to-end test suites in Cypress to improve software uptime.",
       "Led a team of 5 engineers to introduce a step-by-step tutorial to onboard new users.",
       "Reviewed pull requests and managed individual deadlines to ensure project delivery.",
-      "Created a chart library with pie charts, bar charts, and OpenStreet maps in React, Redux, and Plotly.",
+      "Created a chart library with pie charts, bar charts, and OpenStreet maps in React and Plotly.",
       "Implemented create, read, update, and delete (CRUD) endpoints in Go for managing users.",
       "Developed a UI wizard for managing users in React, Redux, and Material Table."
     ],
