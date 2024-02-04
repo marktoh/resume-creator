@@ -3,7 +3,7 @@ interface WorkExperienceCardProps {
   title: string;
   startDate?: string | null;
   endDate?: string | null;
-  role: string;
+  role?: string;
   description: string | null;
   statements: Array<String>;
 }
