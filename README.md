@@ -1,6 +1,6 @@
 # Resume Creator
 
-A tool for creating a resume
+A tool for creating a resume built with TailwindCSS, Next.js, and Vercel
 
 ## Table of Contents
 
