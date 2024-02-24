@@ -1,20 +1,20 @@
-function ArrowUpRight() {
+function Plus() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      strokeWidth={2}
+      strokeWidth={1.5}
       stroke="currentColor"
-      className="text-color-quarternary h-3 w-3"
+      className="h-3 w-3"
     >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+        d="M12 4.5v15m7.5-7.5h-15"
       />
     </svg>
   );
 }
 
-export default ArrowUpRight;
+export default Plus;

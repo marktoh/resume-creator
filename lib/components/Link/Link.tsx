@@ -7,7 +7,7 @@ function Link({ children, href }: LinkProps) {
   return (
     <a
       href={href}
-      className="cursor-pointer text-sm text-blue-800 hover:text-blue-700 hover:underline"
+      className="cursor-pointer text-xs text-gray-700 hover:text-gray-800 hover:underline"
     >
       {children}
     </a>

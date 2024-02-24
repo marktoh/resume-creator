@@ -1,5 +1,4 @@
 import Link from "../../components/Link/Link";
-import ArrowUpRight from "../../../assets/icons/ArrowUpRight";
 
 interface ContactLinkProps {
   title: string;
@@ -8,9 +7,8 @@ interface ContactLinkProps {
 function ContactLink({ title, href }: ContactLinkProps) {
   return (
     <Link href={href}>
-      <div className="flex items-center gap-0">
+      <div className="flex items-center gap-1">
         <div>{title}</div>
-        <ArrowUpRight />
       </div>
     </Link>
   );

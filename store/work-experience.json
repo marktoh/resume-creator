@@ -1,30 +1,30 @@
 [
   {
     "title": "PropertyGuru",
-    "startDate": "SEP 2023",
-    "endDate": "PRESENT",
+    "startDate": "Sep 2023",
+    "endDate": "Present",
     "role": "Software Engineer",
     "description": "Worked on growing, improving, and maintaining Asia's largest online property portal.",
     "statements": [
-      "Translated responsive Figma designs into React using styled-components and Next.js.",
-      "Masked website URLs by designing an algorithm using regular expressions.",
-      "Performed sprint plannings and participated in an agile methodology.",
-      "Wrote unit tests in Jest for utility functions and React components.",
-      "Improved development workflow by creating a pre-push git hook using Husky."
+      "Developed core features by translating Figma designs into styled-components and Next.js.",
+      "Augmented a gating feature by designing an algorithm that masks website URLs using RegEx.",
+      "Operated in a biweekly cycle of sprint plannings and agile methodologies.",
+      "Tested components and features by writing unit tests in Jest.",
+      "Enforced development security by enforcing a pre-push git hook using Husky."
     ],
     "status": "active",
     "dateModified": "20/01/2024"
   },
   {
     "title": "Mumbo Solutions",
-    "startDate": "OCT 2022",
-    "endDate": "SEP 2023",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2023",
     "role": "Lead Software Engineer",
     "description": "Worked on an e-commerce app for a wholesaler to manage and sell products online.",
     "statements": [
-      "Developed a full-stack shopping cart system using React, e-GHL Payments Gateway, Node.js, and Supabase (PostgreSQL).",
+      "Developed a full-stack shopping cart system in React, e-GHL Payments Gateway, Node.js, and Supabase (PostgreSQL).",
       "Authenticated users using React-Router and Supabase Auth API.",
-      "Upload photos to products using Supabase Storage API (Amazon s3 Storage).",
+      "Supported photo uploads using Supabase Storage API (Amazon s3 Storage).",
       "Notified users via Email using Courier Notification API."
     ],
     "status": "active",
@@ -32,27 +32,27 @@
   },
   {
     "title": "Expedia Group",
-    "startDate": "NOV 2020",
-    "endDate": "DEC 2021",
+    "startDate": "Nov 2020",
+    "endDate": "Dec 2021",
     "role": "Software Engineer",
     "description": "Implemented designs for Expedia's flagship product, a travel agency & metasearch engine, that serves millions of flight passengers daily.",
     "statements": [
-      "Translated UI/UX designs from Figma into React/JavaScript code.",
-      "Improved development workflow by integrating Github Actions into the CI/CD pipeline."
+      "Developed core checkout experience features by translating Figma designs into React.",
+      "Accelerated development workflow by integrating Github Actions into the CI/CD pipeline."
     ],
     "status": "active",
     "dateModified": "20/01/2024"
   },
   {
     "title": "DataChat",
-    "startDate": "MAY 2018",
-    "endDate": "NOV 2020",
+    "startDate": "May 2018",
+    "endDate": "Nov 2020",
     "role": "Lead Software Engineer",
     "description": "Worked on an AI Data Analytics chatbot for enterprises to oversee and forecast their data.",
     "statements": [
       "Developed a business intelligence dashboard using React, Redux and Plotly.",
-      "Created a data pipeline that shows the latest company data in React and Python.",
-      "Designed end-to-end test suites in Cypress to improve software uptime.",
+      "Displayed up-to-date data by automating an analytical data pipeline in React and Python.",
+      "Established end-to-end tests in Cypress for CI/CD completeness.",
       "Led a team of 5 engineers to introduce a step-by-step tutorial to onboard new users.",
       "Reviewed pull requests and managed individual deadlines to ensure project delivery.",
       "Created a chart library with pie charts, bar charts, and OpenStreet maps in React and Plotly.",

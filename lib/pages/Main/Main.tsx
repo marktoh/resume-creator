@@ -19,7 +19,7 @@ function ContactSection() {
   const { contact } = store;
   return (
     <section>
-      <ContactList center>
+      <ContactList>
         {contact?.data?.map((e) => (
           <ContactListItem key={e.title}>
             <ContactLink title={e.title} href={e.href} />
@@ -32,8 +32,7 @@ function ContactSection() {
 function SkillsSection() {
   const { skills } = store;
   return (
-    <section>
-      <SectionHeading title={skills?.title} />
+    <section className="my-2">
       <Skills skills={skills?.data} />
     </section>
   );
@@ -54,9 +53,9 @@ function ProjectExperienceSection() {
   return (
     <section>
       <SectionHeading title={projectExperience?.title} />
-      {projectExperience?.data?.map((e) => (
-        <WorkExperienceCard key={e.title} {...e} />
-      ))}
+      {projectExperience?.data
+        ?.filter((e) => e.status === "active")
+        ?.map((e) => <WorkExperienceCard key={e.title} {...e} />)}
     </section>
   );
 }
@@ -65,9 +64,14 @@ function Main() {
   return (
     <main className="text-color-primary mx-auto px-4 font-sans sm:px-12 md:px-48 lg:px-72 xl:max-w-screen-sm xl:px-0">
       <NameSection />
+      <hr />
       <ContactSection />
+      <div className="my-0.5 text-xs font-medium">{store?.skills?.title}</div>
+      <hr />
       <SkillsSection />
+      <hr />
       <WorkExperienceSection />
+      <hr />
       <ProjectExperienceSection />
     </main>
   );

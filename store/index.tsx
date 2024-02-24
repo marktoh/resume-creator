@@ -9,7 +9,7 @@ const store = {
     data: CONTACT_LIST_DATA,
   },
   skills: {
-    title: "Front-end Engineer, Full Stack Engineer, Tech Lead",
+    title: "Full Stack Engineer, Front-End Engineer",
     data: SKILLS_DATA,
   },
   workExperience: {

@@ -18,16 +18,16 @@
 
 @layer utilities {
   .text-color-primary {
-    @apply text-slate-700;
+    @apply text-slate-900;
   }
   .text-color-secondary {
-    @apply text-slate-500;
+    @apply text-slate-700;
   }
   .text-color-tertiary {
-    @apply text-gray-400;
+    @apply text-gray-600;
   }
   .text-color-quarternary {
-    @apply text-slate-300;
+    @apply text-slate-500;
   }
   .text-balance {
     text-wrap: balance;
