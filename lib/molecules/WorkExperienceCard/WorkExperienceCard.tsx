@@ -1,7 +1,7 @@
 import Plus from "../../../assets/icons/Plus";
 import Briefcase from "../../../assets/icons/Briefcase";
 import BuildingOffice from "../../../assets/icons/BuildingOffice";
-import Calendar from "../../../assets/icons/calendar";
+import Calendar from "../../../assets/icons/Calendar";
 
 interface WorkExperienceCardProps {
   title: string;
