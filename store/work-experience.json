@@ -12,6 +12,7 @@
       "Tested components and features by writing unit tests in Jest.",
       "Enforced development security by enforcing a pre-push git hook using Husky."
     ],
+    "location": "Kuala Lumpur, Malaysia",
     "status": "active",
     "dateModified": "20/01/2024"
   },
@@ -27,6 +28,7 @@
       "Supported photo uploads using Supabase Storage API (Amazon s3 Storage).",
       "Notified users via Email using Courier Notification API."
     ],
+    "location": "Penang, Malaysia",
     "status": "active",
     "dateModified": "20/01/2024"
   },
@@ -40,6 +42,7 @@
       "Developed core checkout experience features by translating Figma designs into React.",
       "Accelerated development workflow by integrating Github Actions into the CI/CD pipeline."
     ],
+    "location": "Chicago, United States",
     "status": "active",
     "dateModified": "20/01/2024"
   },
@@ -59,6 +62,7 @@
       "Implemented create, read, update, and delete (CRUD) endpoints in Go for managing users.",
       "Developed a UI wizard for managing users in React, Redux, and Material Table."
     ],
+    "location": "Wisconsin, United States",
     "status": "active",
     "dateModified": "20/01/2024"
   }
