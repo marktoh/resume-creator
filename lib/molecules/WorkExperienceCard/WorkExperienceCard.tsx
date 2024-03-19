@@ -46,7 +46,7 @@ function WorkExperienceCard({
         <ul>
           {statements?.map((statement, idx) => (
             <li key={idx} className="flex items-start text-sm">
-              <div className="mt-1">
+              <div className="mr-1 mt-1">
                 <Plus />
               </div>
               {statement}

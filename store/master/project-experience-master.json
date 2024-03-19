@@ -27,6 +27,7 @@
     "statements": [
       "Integrated checkout using Stripe's Checkout API and created auxiliary endpoints in Node.js to process checkout session."
     ],
+    "status": "active",
     "dateModified": "20/01/2024"
   }
 ]
